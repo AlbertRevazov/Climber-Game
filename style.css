@@ -1,0 +1,322 @@
+#text {
+  display: flex;
+  justify-content: center;
+  color: rgb(243, 239, 239);
+  background-color: rgb(147, 149, 151);
+  border-radius: 40px;
+  margin: 30px 720px 0 720px;
+  border: 9px solid rgb(147, 149, 151);
+}
+
+#text2 {
+  display: flex;
+  justify-content: center;
+  color: rgb(243, 239, 239);
+  background-color: rgb(147, 149, 151);
+  border-radius: 40px;
+  margin: 30px 500px 33px 500px;
+  font-size: 24px;
+  border: 9px solid rgb(147, 149, 151);
+
+}
+
+.playscreen {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Player {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+
+
+}
+
+.NamePlayer {
+  bottom: 60px;
+  left: 500px;
+  width: 250px;
+  height: 30px;
+  background-color: rgb(11, 12, 12);
+  ;
+  border-radius: 12px;
+  margin-right: 10px;
+  font-size: x-large;
+  font-family: Impact, sans-serif;
+  color: rgb(247, 245, 245);
+}
+
+.name {
+  width: 99px;
+  height: 35px;
+  background-color: rgb(147, 149, 151);
+  border-radius: 8px;
+  font-size: 20px;
+  color: rgb(2, 0, 0)
+}
+
+.box {
+  border: 9px solid rgb(162, 165, 162);
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  width: 1000px;
+  height: 500px;
+}
+
+.mount {
+  overflow: hidden;
+  background-image: url(https://thumbs.gfycat.com/BitesizedWeeklyAffenpinscher-size_restricted.gif);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+#pic {
+  width: 2000px;
+  height: 500px;
+}
+
+.checkpoint {
+  position: absolute;
+}
+
+#man {
+  position: relative;
+  bottom: 0px;
+  left: 10px;
+  width: 50px;
+  height: 100px;
+}
+
+body {
+  background-attachment: fixed;
+  background-position: cover;
+  background-image: url(https://cdn.smehost.net/dailyrindblogcom-orchardprod/wp-content/uploads/2021/04/MusicGamingBanner.jpg);
+  background-repeat: repeat-y;
+}
+
+.bio {
+  position: absolute;
+  left: 5px;
+  bottom: 420px;
+  width: 400px;
+  height: 35px;
+  background-color: rgba(255, 123, 0, 0.027);
+  font-size: x-large;
+  color: darkred;
+  border-radius: 20px;
+  overflow: hidden;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#zero {
+  position: relative;
+  width: 40px;
+  height: 5px;
+  background-color: rgb(255, 38, 0)
+}
+
+#one {
+  position: absolute;
+  bottom: 30px;
+  left: 130px;
+  width: 34px;
+  height: 5px;
+  border-radius: 3px;
+  background-color: rgb(102, 101, 101)
+}
+
+#two {
+  position: absolute;
+  bottom: 70px;
+  left: 220px;
+  width: 34px;
+  height: 5px;
+  border-radius: 3px;
+  background-color: rgb(102, 101, 101)
+}
+
+#three {
+  position: absolute;
+  bottom: 120px;
+  left: 280px;
+  width: 34px;
+  height: 5px;
+  border-radius: 3px;
+  background-color: rgb(102, 101, 101)
+}
+
+#four {
+  position: absolute;
+  bottom: 200px;
+  left: 350px;
+  width: 34px;
+  height: 5px;
+  border-radius: 3px;
+  background-color: rgb(102, 101, 101)
+}
+
+#five {
+  position: absolute;
+  bottom: 280px;
+  left: 426px;
+  width: 34px;
+  height: 5px;
+  border-radius: 3px;
+  background-color: rgb(102, 101, 101)
+}
+
+#six {
+  position: absolute;
+  bottom: 326px;
+  left: 500px;
+  width: 34px;
+  height: 5px;
+  border-radius: 3px;
+  background-color: rgb(102, 101, 101)
+}
+
+#seven {
+  position: absolute;
+  bottom: 320px;
+  left: 638px;
+  width: 34px;
+  height: 5px;
+  border-radius: 3px;
+  background-color: rgb(102, 101, 101)
+}
+
+#eight {
+  position: absolute;
+  bottom: 370px;
+  left: 736px;
+  width: 34px;
+  height: 5px;
+  border-radius: 3px;
+  background-color: rgb(102, 101, 101)
+}
+
+#nine {
+  position: absolute;
+  bottom: 420px;
+  left: 796px;
+  width: 34px;
+  height: 5px;
+  border-radius: 3px;
+  background-color: rgb(102, 101, 101)
+}
+
+#ten {
+  position: absolute;
+  bottom: 460px;
+  left: 857px;
+  width: 34px;
+  height: 5px;
+  border-radius: 3px;
+  background-color: rgb(187, 3, 3)
+}
+
+#model-result-wrapper,
+#model-result-wrapper2 {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0px;
+  display: none;
+}
+
+#overlay,
+#overlay2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#model-window {
+  width: 300px;
+  height: 300px;
+  border: 5px solid rgb(162, 165, 162);
+  border-radius: 13px;
+  background-image: url(https://i.gifer.com/origin/2c/2ce443f387fae275999af1fd80544953.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#model-window2 {
+  width: 300px;
+  height: 300px;
+  border: 5px solid rgb(162, 165, 162);
+  border-radius: 13px;
+  background-image: url(https://i.gifer.com/CFz9.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#content {
+  margin-top: 200px;
+  border-radius: 10px;
+  width: 120px;
+  padding-left: 20px;
+  background-color: rgba(0, 162, 255, 0.527);
+  font-size: 30px;
+  color: rgb(255, 60, 0);
+}
+
+#btn-close {
+  width: 260px;
+  height: 35px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(0, 162, 255, 0.527);
+  color: rgb(255, 60, 0);
+  text-align: center;
+  cursor: pointer;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+#content2 {
+  background-color: rgba(248, 246, 246, 0.568);
+  font-size: 25px;
+  color: rgb(236, 44, 19)
+}
+
+#btn-close2 {
+  background-color: rgba(252, 249, 249, 0.637);
+  color: rgb(255, 60, 0);
+  text-align: center;
+  cursor: pointer;
+  font-size: 26px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding-top: 3px;
+  width: 260px;
+  height: 35px;
+  ;
+}
